@@ -196,6 +196,14 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/media/media_profiles.xml:system/etc/media_profiles.xml
 
 ###########################################################
+### MEDIA
+###########################################################
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.stagefright.legacyencoder=1 \
+    media.stagefright.less-secure=1
+
+###########################################################
 ### POWER
 ###########################################################
 

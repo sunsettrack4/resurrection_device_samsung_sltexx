@@ -60,7 +60,7 @@ media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
 
 # AUDIO
-af.fast_track_multiplier=1
+audio_hal.force_voice_config=wide
 
 # ART
 # use 4 threads for dex2oat
